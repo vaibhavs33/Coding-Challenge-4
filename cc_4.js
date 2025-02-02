@@ -33,3 +33,12 @@ while (stock > 0) {
 }
 //Logging when there is no more in stock
 console.log("Out of stock");
+
+//Task 4 - Customer Survey
+let responses = 0; //Initalize the response count
+
+//Collecting responses until the count reaches 3
+do {
+  console.log(`Collecting responses: ${responses}`); //Logging the current count
+  responses++; //Incrementing the response count
+} while (responses < 3); //Condition to stop when responses hit 3
