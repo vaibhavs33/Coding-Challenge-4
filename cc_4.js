@@ -42,3 +42,15 @@ do {
   console.log(`Collecting responses: ${responses}`); //Logging the current count
   responses++; //Incrementing the response count
 } while (responses < 3); //Condition to stop when responses hit 3
+
+//Task 5 - Employee Information
+let employee = {
+  name: "Alice", //Name
+  position: "Manager", //Job position
+  salary: 75000 //Salary amount
+}; //Employee object with key value pairs
+
+//Looping through each key (property) in the employee object
+for (let key in employee) {
+  console.log(`${key}: ${employee[key]}`); //Displaying the property and its value
+}
