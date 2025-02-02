@@ -62,3 +62,11 @@ let products = ["Air Fryer", "Vacuum Cleaner", "Microwave Oven"]; //Array of pro
 for (let product of products) {
   console.log(`Product: ${product}`); //Logging each product name
 }
+
+//Task 7 - Order Processing
+let orders = [114, 115, 116]; //Array of order IDs
+
+//Using forEach to process each order in the array
+orders.forEach(order => {
+  console.log(`Order ID: ${order}`); //Logging each order ID
+});
