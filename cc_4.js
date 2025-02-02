@@ -54,3 +54,11 @@ let employee = {
 for (let key in employee) {
   console.log(`${key}: ${employee[key]}`); //Displaying the property and its value
 }
+
+//Task 6 - Product Listings
+let products = ["Air Fryer", "Vacuum Cleaner", "Microwave Oven"]; //Array of products
+
+//Looping through each item in the products array
+for (let product of products) {
+  console.log(`Product: ${product}`); //Logging each product name
+}
