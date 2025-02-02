@@ -1,4 +1,4 @@
-[//Task 1 - Customer Discounts
+//Task 1 - Customer Discounts
 let purchaseAmount = 300; //Purchase amount
 let finalAmount = purchaseAmount; //Initializing the final amount to the original purchase amount
 
