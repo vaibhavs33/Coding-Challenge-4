@@ -10,3 +10,15 @@ if (purchaseAmount > 100) {
 
 //Logging the final amount after the discount is applied
 console.log(`Final amount after discount: $${finalAmount}`);
+
+//Task 2 - Sales Report
+let sales = [130, 100, 170, 140, 80]; //Array called sales storing 5 numerical values
+let totalSales = 0; //Variable totalSales is to store the total sales
+
+//Looping through the sales array and summing all of the values
+for (let i = 0; i < sales.length; i++) {
+  totalSales += sales[i]; //Adding each sale amount to totalSales
+}
+
+//Logging the total sales amount to the console
+console.log(`Total sales: $${totalSales}`);
