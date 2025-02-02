@@ -81,3 +81,14 @@ let tax = calculateTax(1500, 0.09);
 
 //Logging the calculated tax amount
 console.log(`Tax: $${tax}`);
+
+//Task 9 - Discount Application
+const applyDiscount = function(price, discountPercentage) {
+  return price - (price * (discountPercentage / 100)); //Calculate the discounted price
+};
+
+//Calling the function with some values and storing the result
+let discountedPrice = applyDiscount(150, 13);
+
+//Logging the discounted price
+console.log(`Discounted price: $${discountedPrice}`);
