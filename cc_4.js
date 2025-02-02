@@ -1,4 +1,4 @@
-//Task 1 - Customer Discounts
+[//Task 1 - Customer Discounts
 let purchaseAmount = 300; //Purchase amount
 let finalAmount = purchaseAmount; //Initializing the final amount to the original purchase amount
 
@@ -22,3 +22,14 @@ for (let i = 0; i < sales.length; i++) {
 
 //Logging the total sales amount to the console
 console.log(`Total sales: $${totalSales}`);
+
+//Task 3 - Inventory Depletion
+let stock = 10; //Initial stock value
+
+//Decreasing the stock until it reaches 0
+while (stock > 0) {
+  console.log(`Stock remaining: ${stock}`); //Displaying the current stock count
+  stock--; //Reducing the stock by 1 per iteration
+}
+//Logging when there is no more in stock
+console.log("Out of stock");
